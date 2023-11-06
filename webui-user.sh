@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-#export COMMANDLINE_ARGS=""
+export COMMANDLINE_ARGS="--xformers"
 
 # python3 executable
 #python_cmd="python3"
@@ -43,6 +43,6 @@
 #export ACCELERATE="True"
 
 # Uncomment to disable TCMalloc
-#export NO_TCMALLOC="True"
+export NO_TCMALLOC="True"
 
 ###########################################
